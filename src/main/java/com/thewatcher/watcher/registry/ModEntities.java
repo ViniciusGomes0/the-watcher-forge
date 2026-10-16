@@ -23,8 +23,8 @@ public final class ModEntities {
     public static final RegistryObject<EntityType<WatcherEntity>> WATCHER =
             ENTITY_TYPES.register("watcher", () -> EntityType.Builder
                     .of(WatcherEntity::new, MobCategory.MONSTER)
-                    // 0.6 de largura, 2.8 de altura: humanoide alto e magro.
-                    .sized(0.6F, 2.8F)
+                    // Stalker altissimo e magro: ~0.9 de largura, ~4.4 de altura.
+                    .sized(0.9F, 4.4F)
                     .clientTrackingRange(16)
                     .updateInterval(2)
                     .fireImmune()

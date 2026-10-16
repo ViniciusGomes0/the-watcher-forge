@@ -21,6 +21,14 @@ import net.minecraft.world.entity.ai.navigation.PathNavigation;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
+import software.bernie.geckolib.animatable.GeoEntity;
+import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
+import software.bernie.geckolib.core.animation.AnimatableManager;
+import software.bernie.geckolib.core.animation.AnimationController;
+import software.bernie.geckolib.core.animation.AnimationState;
+import software.bernie.geckolib.core.animation.RawAnimation;
+import software.bernie.geckolib.core.object.PlayState;
+import software.bernie.geckolib.util.GeckoLibUtil;
 
 import javax.annotation.Nullable;
 
@@ -39,12 +47,17 @@ import javax.annotation.Nullable;
  * A fase é sincronizada para o cliente via {@link #DATA_PHASE} (usada depois
  * pelo render para controlar opacidade/efeitos).
  */
-public class WatcherEntity extends Monster {
+public class WatcherEntity extends Monster implements GeoEntity {
 
     private static final EntityDataAccessor<Integer> DATA_PHASE =
             SynchedEntityData.defineId(WatcherEntity.class, EntityDataSerializers.INT);
 
+    private static final RawAnimation IDLE = RawAnimation.begin().thenLoop("animation.stalker.idle");
+    private static final RawAnimation WALK = RawAnimation.begin().thenLoop("animation.stalker.walk");
+    private static final RawAnimation RUN = RawAnimation.begin().thenLoop("animation.stalker.run");
+
     private final WatcherSoundController soundController = new WatcherSoundController();
+    private final AnimatableInstanceCache geoCache = GeckoLibUtil.createInstanceCache(this);
 
     public WatcherEntity(EntityType<? extends Monster> type, Level level) {
         super(type, level);
@@ -139,5 +152,29 @@ public class WatcherEntity extends Monster {
     @Override
     protected SoundEvent getAmbientSound() {
         return null;
+    }
+
+    // =====================================================================
+    //  GeckoLib — animações (idle / walk / run)
+    // =====================================================================
+
+    @Override
+    public void registerControllers(AnimatableManager.ControllerRegistrar controllers) {
+        controllers.add(new AnimationController<>(this, "movement", 5, this::movementPredicate));
+    }
+
+    private PlayState movementPredicate(AnimationState<WatcherEntity> state) {
+        if (state.isMoving()) {
+            // Fases avançadas (stalking/antecipação) correm; cedo, só caminham.
+            state.setAnimation(getClientPhase() >= 3 ? RUN : WALK);
+        } else {
+            state.setAnimation(IDLE);
+        }
+        return PlayState.CONTINUE;
+    }
+
+    @Override
+    public AnimatableInstanceCache getAnimatableInstanceCache() {
+        return geoCache;
     }
 }

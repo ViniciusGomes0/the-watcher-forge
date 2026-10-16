@@ -2,6 +2,7 @@ package com.thewatcher.watcher;
 
 import com.mojang.logging.LogUtils;
 import com.thewatcher.watcher.registry.ModEntities;
+import com.thewatcher.watcher.registry.ModItems;
 import com.thewatcher.watcher.registry.ModSounds;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -28,6 +29,7 @@ public class TheWatcherMod {
 
         // Registros do mod (entidades, sons, ...).
         ModEntities.register(modEventBus);
+        ModItems.register(modEventBus);
         ModSounds.register(modEventBus);
 
         // Setup comum (cliente e servidor).

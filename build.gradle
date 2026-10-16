@@ -32,6 +32,11 @@ minecraft {
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
 
+            // Remapeia os refmaps de mixin de mods de dependência (ex.: GeckoLib),
+            // que vêm em SRG, para os nomes 'official' deste workspace de dev.
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+
             mods {
                 "${mod_id}" {
                     source sourceSets.main
@@ -66,18 +71,18 @@ repositories {
     // Put repositories for dependencies here
     // ForgeGradle automatically adds the Forge maven and Maven Central for you
 
-    // If you have mod jar dependencies in ./libs, you can declare them as a repository like so.
-    // flatDir {
-    //     dir 'libs'
-    // }
+    // GeckoLib (modelos/animações)
+    maven { url = 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' }
 }
 
 dependencies {
     // Specify the version of Minecraft to use.
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 
-    // Example optional mod dependency using a mod jar from ./libs with a flat dir repository.
-    // implementation fg.deobf("blank:coolmod-${minecraft_version}:${coolmod_version}")
+    // GeckoLib para Forge 1.20.1. O jar publicado está em SRG (produção); em um
+    // workspace com mappings 'official' é preciso fg.deobf para remapear o jar
+    // (e seus mixins) para os nomes oficiais do ambiente de dev.
+    implementation fg.deobf("software.bernie.geckolib:geckolib-forge-${minecraft_version}:${geckolib_version}")
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

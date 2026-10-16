@@ -32,7 +32,7 @@ public class WatcherWorldData extends SavedData {
      */
     public static WatcherWorldData get(ServerLevel level) {
         return level.getDataStorage().computeIfAbsent(
-                new SavedData.Factory<>(WatcherWorldData::new, WatcherWorldData::load, null),
+                WatcherWorldData::load, WatcherWorldData::new,
                 DATA_NAME);
     }
 

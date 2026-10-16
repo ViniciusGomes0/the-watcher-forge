@@ -1,0 +1,35 @@
+# This is an example mods.toml file. It contains the data relating to the loading mods.
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="thewatcher"
+version="0.1.0"
+displayName="The Watcher"
+authors="The Watcher Team"
+description='''
+Uma entidade de terror com IA adaptativa que aprende os padroes do jogador.
+'''
+
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.thewatcher]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.thewatcher]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.thewatcher]]
+    modId="geckolib"
+    mandatory=true
+    versionRange="[4.4,)"
+    ordering="AFTER"
+    side="BOTH"

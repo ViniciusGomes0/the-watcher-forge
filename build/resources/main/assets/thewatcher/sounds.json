@@ -1,0 +1,35 @@
+{
+  "watcher.ambient": {
+    "category": "hostile",
+    "subtitle": "subtitles.thewatcher.watcher.ambient",
+    "sounds": [
+      { "name": "thewatcher:watcher/ambient", "stream": false }
+    ]
+  },
+  "watcher.step": {
+    "category": "hostile",
+    "sounds": [
+      { "name": "thewatcher:watcher/step" }
+    ]
+  },
+  "watcher.screech": {
+    "category": "hostile",
+    "subtitle": "subtitles.thewatcher.watcher.screech",
+    "sounds": [
+      { "name": "thewatcher:watcher/screech", "stream": true }
+    ]
+  },
+  "watcher.whisper": {
+    "category": "hostile",
+    "sounds": [
+      { "name": "thewatcher:watcher/whisper" }
+    ]
+  },
+  "watcher.block_move": {
+    "category": "hostile",
+    "subtitle": "subtitles.thewatcher.watcher.block_move",
+    "sounds": [
+      { "name": "thewatcher:watcher/block_move" }
+    ]
+  }
+}
