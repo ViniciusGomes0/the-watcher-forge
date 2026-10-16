@@ -1,92 +1,154 @@
-[15out.2026 21:55:07.349] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\miria\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[15out.2026 21:55:07.353] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.20 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[15out.2026 21:55:07.462] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[15out.2026 21:55:07.535] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[15out.2026 21:55:07.769] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[15out.2026 21:55:07.870] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/miria/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[15out.2026 21:55:07.923] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 3060/PCIe/SSE2 GL version 4.6.0 NVIDIA 617.14, NVIDIA Corporation
-[15out.2026 21:55:08.201] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\miria\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[15out.2026 21:55:08.204] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\miria\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[15out.2026 21:55:08.208] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\miria\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[15out.2026 21:55:08.211] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\miria\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
-[15out.2026 21:55:08.350] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[15out.2026 21:55:09.318] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[15out.2026 21:55:09.322] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\miria\.gradle\caches\forge_gradle\assets, --assetIndex, 5]
-[15out.2026 21:55:09.667] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using C:\Users\miria\Downloads\repo\the-watcher-forge/build/createSrgToMcp/output.srg
-[15out.2026 21:55:13.176] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 174 milliseconds
-[15out.2026 21:55:14.661] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/miria/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[15out.2026 21:55:14.663] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/miria/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[15out.2026 21:55:14.683] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[15out.2026 21:55:14.689] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[15out.2026 21:55:14.787] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[15out.2026 21:55:15.033] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
-[15out.2026 21:55:15.034] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
-[15out.2026 21:55:15.043] [modloading-worker-0/INFO] [com.thewatcher.watcher.TheWatcherMod/]: [The Watcher] Ele sabe que voce esta aqui.
-[15out.2026 21:55:15.938] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [thewatcher]
-[15out.2026 21:55:16.171] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
-[15out.2026 21:55:16.298] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[15out.2026 21:55:16.306] [Worker-Main-4/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
-[15out.2026 21:55:16.464] [Worker-Main-8/WARN] [net.minecraft.client.sounds.SoundManager/]: File thewatcher:sounds/watcher/ambient.ogg does not exist, cannot add it to event thewatcher:watcher.ambient
-[15out.2026 21:55:16.464] [Worker-Main-8/WARN] [net.minecraft.client.sounds.SoundManager/]: File thewatcher:sounds/watcher/step.ogg does not exist, cannot add it to event thewatcher:watcher.step
-[15out.2026 21:55:16.464] [Worker-Main-8/WARN] [net.minecraft.client.sounds.SoundManager/]: File thewatcher:sounds/watcher/screech.ogg does not exist, cannot add it to event thewatcher:watcher.screech
-[15out.2026 21:55:16.464] [Worker-Main-8/WARN] [net.minecraft.client.sounds.SoundManager/]: File thewatcher:sounds/watcher/whisper.ogg does not exist, cannot add it to event thewatcher:watcher.whisper
-[15out.2026 21:55:16.464] [Worker-Main-8/WARN] [net.minecraft.client.sounds.SoundManager/]: File thewatcher:sounds/watcher/block_move.ogg does not exist, cannot add it to event thewatcher:watcher.block_move
-[15out.2026 21:55:18.155] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.0 Target: 47.4.10
-[15out.2026 21:55:18.665] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[15out.2026 21:55:18.665] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[15out.2026 21:55:18.691] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Alto-falantes (High Definition Audio Device)
-[15out.2026 21:55:18.691] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[15out.2026 21:55:18.785] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[15out.2026 21:55:18.795] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[15out.2026 21:55:18.796] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[15out.2026 21:55:18.796] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[15out.2026 21:55:18.796] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[15out.2026 21:55:18.799] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[15out.2026 21:55:18.801] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[15out.2026 21:55:18.801] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[15out.2026 21:55:18.801] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[15out.2026 21:55:18.909] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[15out.2026 21:55:18.955] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[15out.2026 21:55:18.957] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[15out.2026 21:55:18.957] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[15out.2026 21:55:19.209] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
-[15out.2026 21:55:28.014] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
-[15out.2026 21:55:29.340] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[15out.2026 21:55:29.429] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
-[15out.2026 21:55:29.816] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
-[15out.2026 21:55:29.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[15out.2026 21:55:30.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[15out.2026 21:55:33.227] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparando Ã¡rea de nascimento: 0%
-[15out.2026 21:55:33.227] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparando Ã¡rea de nascimento: 0%
-[15out.2026 21:55:33.227] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparando Ã¡rea de nascimento: 0%
-[15out.2026 21:55:33.227] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparando Ã¡rea de nascimento: 0%
-[15out.2026 21:55:33.227] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparando Ã¡rea de nascimento: 0%
-[15out.2026 21:55:33.422] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparando Ã¡rea de nascimento: 1%
-[15out.2026 21:55:33.917] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[15out.2026 21:55:33.918] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparando Ã¡rea de nascimento: 98%
-[15out.2026 21:55:33.918] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3006 ms
-[15out.2026 21:55:34.047] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[15out.2026 21:55:34.050] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[15out.2026 21:55:34.145] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[15out.2026 21:55:34.438] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[15out.2026 21:55:34.477] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:0d0e6e22] logged in with entity id 271 at (-91.34875050034181, 78.18347510160964, 9.296285295418345)
-[15out.2026 21:55:34.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev entrou no jogo
-[15out.2026 21:55:35.189] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2 advancements
-[15out.2026 21:56:07.468] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[15out.2026 21:56:07.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Novo mundo]'/minecraft:overworld
-[15out.2026 21:56:07.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Novo mundo]'/minecraft:the_end
-[15out.2026 21:56:07.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Novo mundo]'/minecraft:the_nether
-[15out.2026 21:56:26.733] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
-[15out.2026 21:56:26.791] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Desconectado
-[15out.2026 21:56:26.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev saiu do jogo
-[15out.2026 21:56:26.801] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[15out.2026 21:56:26.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[15out.2026 21:56:26.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[15out.2026 21:56:26.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[15out.2026 21:56:27.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Novo mundo]'/minecraft:overworld
-[15out.2026 21:56:27.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Novo mundo]'/minecraft:the_end
-[15out.2026 21:56:27.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Novo mundo]'/minecraft:the_nether
-[15out.2026 21:56:27.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (Novo mundo): All chunks are saved
-[15out.2026 21:56:27.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15out.2026 21:56:27.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15out.2026 21:56:27.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15out.2026 22:26:23.179] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\miria\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[15out.2026 22:26:23.184] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.20 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[15out.2026 22:26:23.292] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[15out.2026 22:26:23.391] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[15out.2026 22:26:23.660] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[15out.2026 22:26:23.752] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/miria/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[15out.2026 22:26:23.825] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 3060/PCIe/SSE2 GL version 4.6.0 NVIDIA 617.14, NVIDIA Corporation
+[15out.2026 22:26:24.178] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\miria\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[15out.2026 22:26:24.182] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\miria\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[15out.2026 22:26:24.190] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\miria\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[15out.2026 22:26:24.199] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\miria\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[15out.2026 22:26:24.433] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[15out.2026 22:26:25.742] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[15out.2026 22:26:25.745] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\miria\.gradle\caches\forge_gradle\assets, --assetIndex, 5]
+[15out.2026 22:26:26.127] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using C:\Users\miria\Downloads\repo\the-watcher-forge/build/createSrgToMcp/output.srg
+[15out.2026 22:26:30.395] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 172 milliseconds
+[15out.2026 22:26:32.771] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/miria/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[15out.2026 22:26:32.771] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/miria/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[15out.2026 22:26:32.792] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15out.2026 22:26:32.800] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[15out.2026 22:26:32.953] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[15out.2026 22:26:33.379] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[15out.2026 22:26:33.382] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[15out.2026 22:26:33.384] [modloading-worker-0/INFO] [com.thewatcher.watcher.TheWatcherMod/]: [The Watcher] Ele sabe que voce esta aqui.
+[15out.2026 22:26:34.408] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [thewatcher]
+[15out.2026 22:26:34.659] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[15out.2026 22:26:34.797] [Worker-Main-7/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[15out.2026 22:26:34.799] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[15out.2026 22:26:34.913] [Worker-Main-2/WARN] [net.minecraft.client.sounds.SoundManager/]: File thewatcher:sounds/watcher/ambient.ogg does not exist, cannot add it to event thewatcher:watcher.ambient
+[15out.2026 22:26:34.913] [Worker-Main-2/WARN] [net.minecraft.client.sounds.SoundManager/]: File thewatcher:sounds/watcher/step.ogg does not exist, cannot add it to event thewatcher:watcher.step
+[15out.2026 22:26:34.913] [Worker-Main-2/WARN] [net.minecraft.client.sounds.SoundManager/]: File thewatcher:sounds/watcher/screech.ogg does not exist, cannot add it to event thewatcher:watcher.screech
+[15out.2026 22:26:34.913] [Worker-Main-2/WARN] [net.minecraft.client.sounds.SoundManager/]: File thewatcher:sounds/watcher/whisper.ogg does not exist, cannot add it to event thewatcher:watcher.whisper
+[15out.2026 22:26:34.913] [Worker-Main-2/WARN] [net.minecraft.client.sounds.SoundManager/]: File thewatcher:sounds/watcher/block_move.ogg does not exist, cannot add it to event thewatcher:watcher.block_move
+[15out.2026 22:26:35.369] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.0 Target: 47.4.10
+[15out.2026 22:26:37.366] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[15out.2026 22:26:37.366] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[15out.2026 22:26:37.398] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Alto-falantes (High Definition Audio Device)
+[15out.2026 22:26:37.398] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[15out.2026 22:26:37.507] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[15out.2026 22:26:37.516] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[15out.2026 22:26:37.517] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[15out.2026 22:26:37.517] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[15out.2026 22:26:37.517] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[15out.2026 22:26:37.520] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[15out.2026 22:26:37.522] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[15out.2026 22:26:37.522] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[15out.2026 22:26:37.524] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[15out.2026 22:26:37.623] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[15out.2026 22:26:37.668] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[15out.2026 22:26:37.669] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[15out.2026 22:26:37.669] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[15out.2026 22:26:38.279] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
+[15out.2026 22:26:40.723] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[15out.2026 22:26:42.120] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[15out.2026 22:26:42.219] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[15out.2026 22:26:42.665] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[15out.2026 22:26:42.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[15out.2026 22:26:43.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[15out.2026 22:26:45.488] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparando área de nascimento: 0%
+[15out.2026 22:26:45.508] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparando área de nascimento: 0%
+[15out.2026 22:26:45.528] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparando área de nascimento: 0%
+[15out.2026 22:26:45.528] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparando área de nascimento: 0%
+[15out.2026 22:26:45.818] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparando área de nascimento: 0%
+[15out.2026 22:26:46.320] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparando área de nascimento: 0%
+[15out.2026 22:26:46.831] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparando área de nascimento: 53%
+[15out.2026 22:26:47.000] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[15out.2026 22:26:47.013] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3209 ms
+[15out.2026 22:26:47.159] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[15out.2026 22:26:47.161] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[15out.2026 22:26:47.285] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[15out.2026 22:26:47.577] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[15out.2026 22:26:47.613] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:eea7601a] logged in with entity id 252 at (-140.4535264579808, 86.05815923123562, 21.729659335979473)
+[15out.2026 22:26:47.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev entrou no jogo
+[15out.2026 22:26:48.344] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2 advancements
+[15out.2026 22:26:57.502] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[15out.2026 22:26:57.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Novo mundo]'/minecraft:overworld
+[15out.2026 22:26:57.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Novo mundo]'/minecraft:the_end
+[15out.2026 22:26:57.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Novo mundo]'/minecraft:the_nether
+[15out.2026 22:27:22.201] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[15out.2026 22:27:22.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Novo mundo]'/minecraft:overworld
+[15out.2026 22:27:22.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Novo mundo]'/minecraft:the_end
+[15out.2026 22:27:22.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Novo mundo]'/minecraft:the_nether
+[15out.2026 22:29:19.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Dificuldade definida como Pacífica]
+[15out.2026 22:29:19.933] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dificuldade definida como Pacífica
+[15out.2026 22:29:20.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Você definiu o tempo para 18000 tiques]
+[15out.2026 22:29:20.164] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Você definiu o tempo para 18000 tiques
+[15out.2026 22:29:20.520] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Esperava-se "{"
+[15out.2026 22:29:20.520] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ...er ~ ~ ~6 0? [AQUI]
+[15out.2026 22:29:51.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Você teletransportou Dev para -144.131446, 81.188820, 29.645671]
+[15out.2026 22:29:51.745] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Você teletransportou Dev para -144.131446, 81.188820, 29.645671
+[15out.2026 22:29:52.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Você invocou: The Watcher]
+[15out.2026 22:29:52.011] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Você invocou: The Watcher
+[15out.2026 22:30:45.158] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Nenhuma entidade foi encontrada
+[15out.2026 22:30:45.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Você definiu o tempo para 1000 tiques]
+[15out.2026 22:30:45.291] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Você definiu o tempo para 1000 tiques
+[15out.2026 22:30:45.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Você teletransportou Dev para -144.131446, 81.188820, 29.645671]
+[15out.2026 22:30:45.412] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Você teletransportou Dev para -144.131446, 81.188820, 29.645671
+[15out.2026 22:30:45.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Você preencheu 99 bloco(s)]
+[15out.2026 22:30:45.674] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Você preencheu 99 bloco(s)
+[15out.2026 22:30:45.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Você preencheu 155 bloco(s)]
+[15out.2026 22:30:45.940] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Você preencheu 155 bloco(s)
+[15out.2026 22:30:46.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Você invocou: The Watcher]
+[15out.2026 22:30:46.192] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Você invocou: The Watcher
+[15out.2026 22:32:35.433] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Nenhuma entidade foi encontrada
+[15out.2026 22:32:35.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Você invocou: The Watcher]
+[15out.2026 22:32:35.670] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Você invocou: The Watcher
+[15out.2026 22:32:35.909] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Nenhuma entidade foi encontrada
+[15out.2026 22:34:12.611] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Nenhuma entidade foi encontrada
+[15out.2026 22:34:12.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Você teletransportou Dev para -144.131446, 81.188820, 29.645671]
+[15out.2026 22:34:12.713] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Você teletransportou Dev para -144.131446, 81.188820, 29.645671
+[15out.2026 22:34:12.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Você invocou: The Watcher]
+[15out.2026 22:34:12.971] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Você invocou: The Watcher
+[15out.2026 22:35:08.612] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Nenhuma entidade foi encontrada
+[15out.2026 22:35:08.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Você invocou: The Watcher]
+[15out.2026 22:35:08.855] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Você invocou: The Watcher
+[15out.2026 22:35:09.111] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Nenhuma entidade foi encontrada
+[15out.2026 22:35:09.351] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Nenhuma entidade foi encontrada
+[15out.2026 22:36:48.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dev> t/summon thewatcher:watcher ~ ~ ~-8
+[15out.2026 22:36:48.893] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] <Dev> t/summon thewatcher:watcher ~ ~ ~-8
+[15out.2026 22:36:52.146] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Nenhuma entidade foi encontrada
+[15out.2026 22:37:53.843] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Nenhuma entidade foi encontrada
+[15out.2026 22:37:54.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Você invocou: The Watcher]
+[15out.2026 22:37:54.096] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Você invocou: The Watcher
+[15out.2026 22:38:14.787] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Nenhuma entidade foi encontrada
+[15out.2026 22:38:15.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Você invocou: The Watcher]
+[15out.2026 22:38:15.052] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Você invocou: The Watcher
+[15out.2026 22:38:54.489] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Nenhuma entidade foi encontrada
+[15out.2026 22:39:39.207] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Nenhuma entidade foi encontrada
+[15out.2026 22:39:39.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Você invocou: The Watcher]
+[15out.2026 22:39:39.460] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Você invocou: The Watcher
+[15out.2026 22:40:21.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dev> t/difficulty normal
+[15out.2026 22:40:21.519] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] <Dev> t/difficulty normal
+[15out.2026 22:40:21.759] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Nenhuma entidade foi encontrada
+[15out.2026 22:40:21.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Você teletransportou Dev para -144.131446, 81.188820, 29.645671]
+[15out.2026 22:40:21.890] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Você teletransportou Dev para -144.131446, 81.188820, 29.645671
+[15out.2026 22:40:22.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Você invocou: The Watcher]
+[15out.2026 22:40:22.145] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Você invocou: The Watcher
+[15out.2026 22:40:47.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Dificuldade definida como Padrão]
+[15out.2026 22:40:47.286] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dificuldade definida como Padrão
+[15out.2026 22:40:47.541] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Nenhuma entidade foi encontrada
+[15out.2026 22:40:47.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Você teletransportou Dev para -144.131446, 81.188820, 29.645671]
+[15out.2026 22:40:47.655] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Você teletransportou Dev para -144.131446, 81.188820, 29.645671
+[15out.2026 22:40:47.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Você invocou: The Watcher]
+[15out.2026 22:40:47.919] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Você invocou: The Watcher
+[15out.2026 22:41:19.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Você definiu o tempo para 1000 tiques]
+[15out.2026 22:41:19.126] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Você definiu o tempo para 1000 tiques
+[15out.2026 22:41:19.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Você teletransportou Dev para -144.131446, 81.188820, 29.645671]
+[15out.2026 22:41:19.401] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Você teletransportou Dev para -144.131446, 81.188820, 29.645671
+[15out.2026 22:41:51.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Você teletransportou The Watcher para -144.131446, 81.188820, 33.645671]
+[15out.2026 22:41:51.251] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Você teletransportou The Watcher para -144.131446, 81.188820, 33.645671
+[15out.2026 22:42:32.751] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[15out.2026 22:42:32.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Novo mundo]'/minecraft:overworld
+[15out.2026 22:42:32.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Novo mundo]'/minecraft:the_end
+[15out.2026 22:42:32.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Novo mundo]'/minecraft:the_nether
