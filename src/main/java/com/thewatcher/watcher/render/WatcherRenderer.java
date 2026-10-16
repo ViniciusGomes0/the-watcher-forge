@@ -13,10 +13,10 @@ public class WatcherRenderer extends GeoEntityRenderer<WatcherEntity> {
 
     public WatcherRenderer(EntityRendererProvider.Context context) {
         super(context, new WatcherGeoModel());
-        this.shadowRadius = 0.8F;
-        // Estica o modelo: altissimo e esqueletico (~4.4 blocos).
-        this.scaleWidth = 1.1F;
-        this.scaleHeight = 1.6F;
+        this.shadowRadius = 0.55F;
+        // A geometria mede 64 pixels (~4 blocos); mantém escala 1:1 para preservar as proporções.
+        this.scaleWidth = 1.0F;
+        this.scaleHeight = 1.0F;
         addRenderLayer(new AutoGlowingGeoLayer<>(this));
     }
 }
